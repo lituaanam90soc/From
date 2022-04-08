@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+background-color: #F4F4F4;}
+.wrapper{
+
+width: 80%;margin: 100px auto;}
+.wrapper h2{
+    
+text-align: center;margin: 100px 0;font-size: 40px;font-weight: 500;}
+.main_content{overflow: hidden;
+
+display: flex;background-color: #fff;border-radius: 10px;box-shadow: 9px -3px 11px 1px;}
+.form{
+
+width: 50%;padding: 20px;}
+.form h1{
+    
+font-size: 30px;font-weight: 400;margin: 20px 0;}
+.form p{
+    
+color: #6666;}
+.information{
+
+display: flex;justify-content: space-between;margin: 20px 0;}
+.address{
+
+}
+.information h3{
+
+color: #000333;margin-bottom: 10px;}
+.information p{
+
+}
+.image{
+
+width: 50%;}
+.image img{
+    
+width: 100%;}
+form{
+
+}
+form input{
+    
+border: none;width: 100%;border-bottom: 1px solid #666;padding: 5px 0;margin-bottom: 20px;font-size: 18px;font-weight: 400;}
+form textarea{
+    
+width: 100%;border: none;border-bottom: 1px solid #666;}
+
+form input:focus, form textarea:focus{
+    outline: none;
+    border-color: #F4F4F4;
+}
+
+form input[type='submit']{
+    background-color: #e3e3e3;
+width: auto;padding: 15px 20px;color: #fffff;border-radius: 5px;margin: 30px 0;}
+
+footer{
+
+}
+
+.contact{
+
+}
+.contact ul{
+
+list-style: none;display: flex;}
+.contact ul li{
+
+margin-right: 20px;}
+.contact ul li a{
+
+color: black;}
+
